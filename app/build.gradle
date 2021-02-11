@@ -42,6 +42,10 @@ android {
     }
 }
 
+androidExtensions {
+    experimental = true
+}
+
 dependencies {
     // Default dependencies
     implementation fileTree(dir: "libs", include: ["*.jar"])
